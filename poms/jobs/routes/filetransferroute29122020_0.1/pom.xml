@@ -9,10 +9,10 @@
     <relativePath>../../../</relativePath>
   </parent>
   <groupId>org.example.sampath_cicd_local.route</groupId>
-  <artifactId>FileTransferRoute-Kar</artifactId>
+  <artifactId>FileTransferRoute29122020-Kar</artifactId>
   <version>0.1.0</version>
   <packaging>pom</packaging>
-  <name>SAMPATH_CICD_LOCAL FileTransferRoute-0.1.0 (0.1,Routes) Kar</name>
+  <name>SAMPATH_CICD_LOCAL FileTransferRoute29122020-0.1.0 (0.1,Routes) Kar</name>
   <modules>
     <module>pom-bundle.xml</module>
     <module>pom-feature.xml</module>

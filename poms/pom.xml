@@ -11,7 +11,7 @@
   <modules>
     <module>code/routines</module>
     <module>code/beans</module>
-    <module>jobs/routes/filetransferroute_0.1</module>
+    <module>jobs/routes/filetransferroute29122020_0.1</module>
   </modules>
   <properties>
     <talend.project.name>SAMPATH_CICD_LOCAL</talend.project.name>
