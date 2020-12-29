@@ -6,7 +6,7 @@
     <groupId>org.example.sampath_cicd_local</groupId>
     <artifactId>code.Master</artifactId>
     <version>7.1.1</version>
-    <relativePath>../../../</relativePath>
+    <relativePath>../../../../</relativePath>
   </parent>
   <groupId>org.example.sampath_cicd_local.route</groupId>
   <artifactId>FileTransferRoute29122020-Kar</artifactId>
