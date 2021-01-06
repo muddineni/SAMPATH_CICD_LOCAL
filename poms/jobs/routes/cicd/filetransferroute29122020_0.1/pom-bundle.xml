@@ -5,13 +5,13 @@
   <parent>
     <groupId>org.example.sampath_cicd_local.route</groupId>
     <artifactId>FileTransferRoute29122020-Kar</artifactId>
-    <version>0.1.0</version>
+    <version>0.1.0-SNAPSHOT</version>
     <relativePath>/</relativePath>
   </parent>
   <groupId>org.example.sampath_cicd_local.route</groupId>
   <artifactId>FileTransferRoute29122020</artifactId>
-  <version>0.1.0</version>
-  <name>SAMPATH_CICD_LOCAL FileTransferRoute29122020-0.1.0 (0.1,Routes) Bundle</name>
+  <version>0.1.0-SNAPSHOT</version>
+  <name>SAMPATH_CICD_LOCAL FileTransferRoute29122020-0.1.0-SNAPSHOT (0.1,Routes) Bundle</name>
   <properties>
     <output.resources.dir>${talend.job.name}/src/main/resources</output.resources.dir>
     <talend.job.applyContextToChildren>false</talend.job.applyContextToChildren>
@@ -21,10 +21,10 @@
     <cloud.publisher.skip>true</cloud.publisher.skip>
     <talend.project.name.lowercase>sampath_cicd_local</talend.project.name.lowercase>
     <talend.job.path>sampath_cicd_local</talend.job.path>
-    <project.distribution-management.repository.id>${project.distributionManagement.repository.id}</project.distribution-management.repository.id>
+    <project.distribution-management.repository.id>${project.distributionManagement.snapshotRepository.id}</project.distribution-management.repository.id>
     <maven.build.timestamp.format>yyyy-MM-dd HHmmssSSS</maven.build.timestamp.format>
     <talend.project.name>SAMPATH_CICD_LOCAL</talend.project.name>
-    <talend.product.version>7.1.1.20181116_1738</talend.product.version>
+    <talend.product.version>7.1.1.20201210_0723-patch</talend.product.version>
     <talend.job.finalName>filetransferroute29122020_0_1</talend.job.finalName>
     <talend.pigudf.groupid>org.example.sampath_cicd_local.pigudf</talend.pigudf.groupid>
     <talend.routine.groupid>org.example.sampath_cicd_local.code</talend.routine.groupid>
@@ -37,9 +37,9 @@
     <talend.job.name>FileTransferRoute29122020</talend.job.name>
     <talend.job.id>_8WAlMEn0EeuzPcbonYApPA</talend.job.id>
     <talend.project.id>0</talend.project.id>
-    <talend.job.folder></talend.job.folder>
+    <talend.job.folder>cicd/</talend.job.folder>
     <talend.job.framework></talend.job.framework>
-    <project.distribution-management.repository.url>${project.distributionManagement.repository.url}</project.distribution-management.repository.url>
+    <project.distribution-management.repository.url>${project.distributionManagement.snapshotRepository.url}</project.distribution-management.repository.url>
     <talend.job.type>Standard</talend.job.type>
   </properties>
   <dependencies>
@@ -56,17 +56,17 @@
     <dependency>
       <groupId>org.talend.libraries</groupId>
       <artifactId>camel-blueprint-2.21.2</artifactId>
-      <version>6.0.0-SNAPSHOT</version>
+      <version>6.0.0</version>
     </dependency>
     <dependency>
       <groupId>org.talend.libraries</groupId>
       <artifactId>camel-core-2.21.2</artifactId>
-      <version>6.0.0-SNAPSHOT</version>
+      <version>6.0.0</version>
     </dependency>
     <dependency>
       <groupId>org.talend.libraries</groupId>
       <artifactId>camel-spring-2.21.2</artifactId>
-      <version>6.0.0-SNAPSHOT</version>
+      <version>6.0.0</version>
     </dependency>
     <dependency>
       <groupId>dom4j</groupId>
@@ -81,17 +81,17 @@
     <dependency>
       <groupId>org.talend.libraries</groupId>
       <artifactId>org.apache.commons.logging_1.2.0</artifactId>
-      <version>6.0.0-SNAPSHOT</version>
+      <version>6.0.0</version>
     </dependency>
     <dependency>
       <groupId>org.talend.libraries</groupId>
       <artifactId>org.apache.log4j_1.2.15.v201012070815</artifactId>
-      <version>6.0.0-SNAPSHOT</version>
+      <version>6.0.0</version>
     </dependency>
     <dependency>
       <groupId>org.talend.libraries</groupId>
       <artifactId>org.talend.dataquality.parser</artifactId>
-      <version>6.0.0</version>
+      <version>6.0.0-SNAPSHOT</version>
     </dependency>
     <dependency>
       <groupId>org.talend.libraries</groupId>
@@ -106,32 +106,32 @@
     <dependency>
       <groupId>org.talend.libraries</groupId>
       <artifactId>spring-aop-4.3.18.RELEASE</artifactId>
-      <version>6.0.0-SNAPSHOT</version>
+      <version>6.0.0</version>
     </dependency>
     <dependency>
       <groupId>org.talend.libraries</groupId>
       <artifactId>spring-beans-4.3.18.RELEASE</artifactId>
-      <version>6.0.0-SNAPSHOT</version>
+      <version>6.0.0</version>
     </dependency>
     <dependency>
       <groupId>org.talend.libraries</groupId>
       <artifactId>spring-context-4.3.18.RELEASE</artifactId>
-      <version>6.0.0-SNAPSHOT</version>
+      <version>6.0.0</version>
     </dependency>
     <dependency>
       <groupId>org.talend.libraries</groupId>
       <artifactId>spring-core-4.3.18.RELEASE</artifactId>
-      <version>6.0.0-SNAPSHOT</version>
+      <version>6.0.0</version>
     </dependency>
     <dependency>
       <groupId>org.talend.libraries</groupId>
       <artifactId>spring-expression-4.3.18.RELEASE</artifactId>
-      <version>6.0.0-SNAPSHOT</version>
+      <version>6.0.0</version>
     </dependency>
     <dependency>
       <groupId>org.talend.libraries</groupId>
       <artifactId>spring-tx-4.3.18.RELEASE</artifactId>
-      <version>6.0.0-SNAPSHOT</version>
+      <version>6.0.0</version>
     </dependency>
     <dependency>
       <groupId>org.talend.libraries</groupId>
